@@ -13,3 +13,6 @@ filled in for you. A GitHub account is needed.
 What a report shares: the address of the page you choose, the kind of
 problem, and Clearleaf's settings (filter lists and blocking level). Nothing
 is sent until you submit the form on GitHub.
+
+Privacy: see [PRIVACY.md](PRIVACY.md). In short, Clearleaf doesn't collect,
+sell or send your data anywhere.
