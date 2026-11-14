@@ -1,11 +1,11 @@
 name: Site report
-description: A website that shows ads or doesn't work with Quietpage
+description: A website that shows ads or doesn't work with Clearleaf
 labels: [ "site report" ]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting. Opened from Quietpage, most fields are already filled in.
+        Thanks for reporting. Opened from Clearleaf, most fields are already filled in.
         Please remove anything you don't want to share (for example, personal details in the address).
   - type: input
     id: url_address_of_the_web_page
@@ -25,7 +25,7 @@ body:
     id: whats_wrong
     attributes:
       label: What's wrong
-      description: The answer chosen in the Quietpage popup, if any.
+      description: The answer chosen in the Clearleaf popup, if any.
   - type: textarea
     id: details
     attributes:
@@ -34,7 +34,7 @@ body:
   - type: textarea
     id: configuration
     attributes:
-      label: Quietpage settings
-      description: Filled in by Quietpage. Filter lists and blocking levels, no browsing history.
+      label: Clearleaf settings
+      description: Filled in by Clearleaf. Filter lists and blocking levels, no browsing history.
     validations:
       required: true
